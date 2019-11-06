@@ -6,7 +6,7 @@
 #    By: lgaultie <lgaultie@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/11/04 09:58:45 by lgaultie          #+#    #+#              #
-#    Updated: 2019/11/04 11:59:52 by lgaultie         ###   ########.fr        #
+#    Updated: 2019/11/06 10:20:13 by lgaultie         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -23,6 +23,7 @@ remove_python()
 
 install_python()
 {
+	# https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html
 	# change path to dowloaded Miniconda file
 	bash /Users/lgaultie/goinfre/Miniconda3-latest-MacOSX-x86_64.sh -b -p /Users/lgaultie/goinfre/miniconda > /dev/null
 	# change path of new miniconda directory and .zshrc file
