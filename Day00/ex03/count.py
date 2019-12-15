@@ -27,7 +27,7 @@ def count_things(str):
 	print("-", space, "spaces")
 
 
-def text_analyzer(str=0):
+def text_analyzer(str = 0):
 	"""This function counts the number of upper characters, lower characters,
 	punctuation and spaces in a given text."""
 	if str is 0:

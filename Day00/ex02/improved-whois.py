@@ -3,14 +3,12 @@
 import sys
 
 if len(sys.argv) != 2:
-	print("ERROR")
-	exit()
+	sys.exit("ERROR")
 argv = sys.argv[1]
 try:
 	nb = int(argv)
 except ValueError:
-	print("ERROR")
-	exit()
+	sys.exit("ERROR")
 if (nb == 0):
 	print("I'm Zero.")
 elif (nb % 2 == 0):
