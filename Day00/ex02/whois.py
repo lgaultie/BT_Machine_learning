@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 
-import sys
-
 def whois(nb):
 	if nb == 0:
 		print ("I'm Zero.")
